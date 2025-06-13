@@ -1,0 +1,42 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container {
+    max-width: 1200px;
+    align-items: center;
+    color: blue;
+    background-color: red;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-header {
+    padding: 1.5rem;
+    background-color: red;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.btn {
+    transition: all 0.3s ease;
+}
+
+footer {
+    margin-top: 2rem;
+    align-items: self-end;
+    color: blue;
+    background-color: red;
+}
