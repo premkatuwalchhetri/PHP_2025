@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    background-color: #007bff;
+    padding: 10px;
+    color: white;
+}
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.lesson-masthead {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.welcomeMessage, .login-register {
+    padding: 20px;
+    text-align: center;
+}
+
+.login, .register {
+    margin: 10px;
+    color: red;
+}
+
+.text-center mt-4 {
+    color: white;
+    background-color: #007bff;
+}

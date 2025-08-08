@@ -1,0 +1,18 @@
+CREATE DATABASE final_project;
+USE final_project;
+
+CREATE TABLE IF NOT EXISTS user (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(100) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    email VARCHAR(150) NOT NULL UNIQUE,
+    image VARCHAR(255)
+    );
+
+CREATE TABLE IF NOT EXISTS content (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    body TEXT NOT NULL,
+    image VARCHAR(255) DEFAULT NULL
+    );
+
